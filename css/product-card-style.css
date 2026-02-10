@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.product-card{
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.left-img-col{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.left-img-col img{
+    max-width: 100%;
+   max-height: 100%;
+   object-fit: contain;
+}
+
+.right-info-col{
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    flex-direction: column;
+    color: black;
+}
+
+.right-info-col h3{
+    font-size: 32px;
+    color: black;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.right-info-col h5{
+    font-size: 18px;
+    color: lightgray;
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.right-info-col p{
+    font-size: 14px;
+    color: black;
+    margin: 0;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    line-height: 1.6;
+}
+
+.available-colors{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.available-colors span:first-child{
+    font-size: 14px;
+    color: black; 
+}
+
+.black-color-container , .white-color-container, .red-color-container{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.black-color-container{
+    background-color: black;
+}
+
+.white-color-container{
+    background-color: beige;
+    border: 1px solid #ccc;
+}
+
+.red-color-container{
+    background-color: red;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.price h4 {
+    font-size: 32px;
+    color: black;
+    margin: 0;
+}
+
+.buy-btn{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.buy-btn:hover{
+    background-color: #333;
+}
+
